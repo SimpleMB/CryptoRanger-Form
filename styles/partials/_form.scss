@@ -1,0 +1,32 @@
+.form {
+  margin: 0 auto;
+  width: $base-width;
+
+  .main-form {
+    width: 100%;
+  }
+}
+
+.input-block {
+  margin-bottom: 100px;
+
+  * {
+    display: block;
+  }
+
+  label {
+    margin: 0 0 10px 10px;
+  }
+}
+
+.input-small {
+  * {
+    width: 450px;
+  }
+}
+
+.input-big {
+  * {
+    width: $base-width;
+  }
+}

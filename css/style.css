@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+input,
+button,
+label {
+  font-family: 'Inter', sans-serif;
+  color: #999;
+}
+
+input {
+  padding: 20px;
+  border: 1px #e1e1e1 solid;
+  border-radius: 10px;
+}
+
+input::-webkit-input-placeholder {
+  color: #e1e1e1;
+}
+
+input:-ms-input-placeholder {
+  color: #e1e1e1;
+}
+
+input::-ms-input-placeholder {
+  color: #e1e1e1;
+}
+
+input::placeholder {
+  color: #e1e1e1;
+}
+
+input:focus {
+  outline: 0;
+  border-color: #3da0e2;
+}
+
+header {
+  width: 950px;
+  margin: 70px auto;
+  padding: 20px 0;
+  color: #2a6faf;
+}
+
+header h1 {
+  font-size: 72px;
+}
+
+header h2 {
+  font-size: 68px;
+}
+
+.form {
+  margin: 0 auto;
+  width: 950px;
+}
+
+.form .main-form {
+  width: 100%;
+}
+
+.input-block {
+  margin-bottom: 100px;
+}
+
+.input-block * {
+  display: block;
+}
+
+.input-block label {
+  margin: 0 0 10px 10px;
+}
+
+.input-small * {
+  width: 450px;
+}
+
+.input-big * {
+  width: 950px;
+}
+/*# sourceMappingURL=style.css.map */
