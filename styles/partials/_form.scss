@@ -8,14 +8,10 @@
 }
 
 .input-block {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 
   * {
     display: block;
-  }
-
-  label {
-    margin: 0 0 10px 10px;
   }
 }
 
@@ -29,4 +25,8 @@
   * {
     width: $base-width;
   }
+}
+
+label {
+  margin: 0 0 10px 10px;
 }

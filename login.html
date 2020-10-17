@@ -3,66 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
     <title>Crypto Ranger - Login</title>
   </head>
   <body>
-    <main>
-      <section class="left">
-        <h1>Crypto</h1>
-        <h2>Ranger</h2>
-      </section>
-      <section class="right">
-        <form action="" class="login-form">
-          <div class="input-block input-small">
-            <label for="email">Email address:</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="hello@superawesomeico.com"
-            />
-          </div>
-          <div class="input-pin">
-            <label for="pin-code">Pin code:</label>
-            <div class="pin-code">
+    <div class="wrapper">
+      <main>
+        <section class="left">
+          <h1>Crypto</h1>
+          <h2>Ranger</h2>
+        </section>
+        <section class="right">
+          <form action="" class="login-form">
+            <div class="input-block input-small">
+              <label for="email">Email address:</label>
               <input
-                type="number"
-                min="0"
-                max="9"
-                name="pin-1"
-                id="pin-code"
-                placeholder="1"
-              />
-              <input
-                type="number"
-                min="0"
-                max="9"
-                name="pin-2"
-                id="pin-code"
-                placeholder="2"
-              />
-              <input
-                type="number"
-                min="0"
-                max="9"
-                name="pin-3"
-                id="pin-code"
-                placeholder="3"
-              />
-              <input
-                type="number"
-                min="0"
-                max="9"
-                name="pin-4"
-                id="pin-code"
-                placeholder="4"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="hello@superawesomeico.com"
               />
             </div>
-          </div>
-          <button class="submit" type="submit">Sign In</button>
-        </form>
-      </section>
-    </main>
+            <div class="input-pin">
+              <label for="pin-code">Pin code:</label>
+              <div class="pin-code">
+                <input
+                  type="text"
+                  min="0"
+                  max="9"
+                  name="pin-1"
+                  id="pin-code"
+                  placeholder="1"
+                />
+                <input
+                  type="text"
+                  min="0"
+                  max="9"
+                  name="pin-2"
+                  id="pin-code"
+                  placeholder="2"
+                />
+                <input
+                  type="text"
+                  min="0"
+                  max="9"
+                  name="pin-3"
+                  id="pin-code"
+                  placeholder="3"
+                />
+                <input
+                  type="text"
+                  min="0"
+                  max="9"
+                  name="pin-4"
+                  id="pin-code"
+                  placeholder="4"
+                />
+              </div>
+            </div>
+            <button class="submit" type="submit">Sign In</button>
+          </form>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

@@ -1,0 +1,48 @@
+.wrapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  width: 1500px;
+}
+
+.left {
+  flex: 1;
+  color: $color-brand;
+  padding: 0 100px;
+  text-align: right;
+
+  h1 {
+    font-size: 72px;
+    line-height: 56px;
+  }
+  
+  h2 {
+    font-size: 68px;
+    line-height: 56px;
+  }
+}
+
+.right {
+  flex: 1;
+  border-left: 1px solid $color-secondary;
+  padding: 0 100px;
+}
+
+.pin-code {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+#pin-code {
+  height: 100px;
+  width: 90px;
+  font-size: 48px;
+  text-align: center;
+}
+
+
