@@ -98,11 +98,13 @@ main {
 .left h1 {
   font-size: 72px;
   line-height: 56px;
+  font-weight: 900;
 }
 
 .left h2 {
   font-size: 68px;
   line-height: 56px;
+  font-weight: 900;
 }
 
 .right {
@@ -128,5 +130,21 @@ main {
   width: 90px;
   font-size: 48px;
   text-align: center;
+}
+
+.btn-input {
+  width: 450px;
+  text-align: end;
+}
+
+.submit-btn {
+  width: 150px;
+  height: 60px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  background-color: #2a6faf;
 }
 /*# sourceMappingURL=login.css.map */
